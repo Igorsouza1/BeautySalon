@@ -13,6 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -27,7 +31,7 @@
             <li><a class="title" href="#home">Inicio</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#testemonials">Depoimentos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
@@ -42,6 +46,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -59,6 +64,8 @@
       </section>
 
       <div class="divider-1"></div>
+
+      <!-- SOBRE NOS -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -89,7 +96,10 @@
           </div>
         </div>
       </section>
+
       <div class="divider-2"></div>
+
+      <!-- SERVIÇOS -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -109,8 +119,8 @@
               />
               <h3 class="title">Terapia Capilar</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dignissimos, asperiores voluptates! Omnis assumenda
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
               </p>
             </div>
             <div class="card">
@@ -121,9 +131,8 @@
               />
               <h3 class="title">Corte</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dignissimos, asperiores voluptates! Omnis assumenda voluptates
-                porro aut qui nemo amet autem tempora
+                A nossa equipe é repleta de profissionais renomados, famosos por
+                lançarem tendências com cortes diferenciados e clássicos.
               </p>
             </div>
             <div class="card">
@@ -134,17 +143,114 @@
               />
               <h3 class="title">Tratamentos</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dignissimos, asperiores voluptates!
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+      <!-- DEPOIMENTOS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testmominal swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Molestias error fuga unde
+                 itaque, nostrum reprehenderit recusandae 
+              </p>
+              <cite>
+                <img src="https://randomuser.me/api/portraits/women/91.jpg" alt="Foto de Wanessa Souza">
+                Wanessa Souza
+              </cite>
+              </blockquote>
+          </div>
+            <div class="testmominal swiper-slide">
+              <blockquote>
+              <p>
+              <span>&ldquo;</span>
+              Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Molestias error fuga u
+              nde itaque, nostrum reprehenderit recusa
+            </p>
+            <cite>
+              <img src="https://randomuser.me/api/portraits/women/59.jpg" alt="Foto de Franciele Maria">
+              Franciele Maria
+            </cite>
+          </blockquote>
+          </div>
+            <div class="testmominal swiper-slide">
+              <blockquote>
+              <p>
+              <span>&ldquo;</span>
+              Lorem ipsum dolor sit amet consectetur,
+               adipisicing elit. Molestias error fuga 
+               unde itaque, nostrum reprehenderit recus
+            </p>
+            <cite>
+              <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="Foto de Maria Andressa">
+              Maria Andressa
+            </cite>
+          </blockquote>
+          </div>
+            </div>
+            <!-- PAGINATION -->
+            <div class="swiper-pagination"></div>
+           
+          </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="divider-2"></div>
+      <!-- CONTATO -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          
+          <div class="text">
+            <h2 class="title">Entre em contato
+              com a gente!</h2>
+            <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.</p>
+            <a class="button" href="#" target="_blank"><img src="./images/icon-whatsapp-white.svg" alt=" icone whatsapp">Entrar em Contato</a>
+          </div>
+         
+          <div class="links">
+            <div class="link">
+              <img class="icon-contact" src="./images/icon-phone.svg" alt="icone telefone">
+              <p>11 99845-6754</p>
+            </div>
+            <div class="link">
+              <img class="icon-contact" src="./images/iconmap-pin.svg" alt="icone local no mapa">
+              <p>R. Amauri Souza, 346</p>
+            </div>
+            <div class="link">
+              <img class="icon-contact" src="./images/icon-mail.svg" alt="icone e-mail">
+              <p>contato@beautysalon.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <footer></footer>
 
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS -->
     <script src="./script.js"></script>
   </body>
 </html>
