@@ -1,15 +1,14 @@
-# NLW-Origin-BeautySalon
+# BeautySalon Mobile
 
-![image](https://user-images.githubusercontent.com/71149968/136474059-13b794ee-ea32-4606-877f-129a8e10e081.png)
-![image](https://user-images.githubusercontent.com/71149968/136474107-55c1ed81-0a6d-4a68-85e1-506a95e221a4.png)
-![image](https://user-images.githubusercontent.com/71149968/136474158-9e1c3788-f72c-4081-81c4-08504d2e8b0b.png)
+![salon](https://user-images.githubusercontent.com/71149968/233382430-c6b131bc-884c-45e4-85df-08ae576f1339.gif)
 
 
 
 ## 📋Sobre
-Site de salão de beleza com informações e navegação feita para mobile
+Site de salão de beleza com informações e navegação feita para mobile.
 
-## 💻Tecnologia Utilizadas
- - HTML
- - CSS
- - JS
+## 💻 Tecnologias Utilizadas
+
+- ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-239120?&style=for-the-badge&logo=javascript&logoColor=white)
